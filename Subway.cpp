@@ -72,7 +72,7 @@ std::vector<int> Subway::shortest_way(int from, int to, size_t arrival_time) {
   }
   path.push_back(from);
   std::reverse(path.begin(), path.end());
-  for (auto& node:nodes_) {
+  for (auto &node : nodes_) {
     node.user_arrival_time = INF;
     node.used = false;
   }
