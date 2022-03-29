@@ -3,4 +3,4 @@ project(1C_entry_task)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(1C_entry_task main.cpp)
+add_executable(1C_entry_task main.cpp Subway.cpp Subway.h)
