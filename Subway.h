@@ -41,7 +41,6 @@ class Subway {
   void add_edge(const EdgeInputType &);
   void label_line(const LineInputType &);
   static size_t min_next_station_time(const Edge &edge, size_t start_time);
-//  std::vector<int> dijkstra(int from, int to, size_t arrival);
  public:
   Subway(int n, const std::vector<EdgeInputType> &edges, const std::vector<LineInputType> &lines);
 
